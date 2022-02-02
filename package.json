@@ -4,7 +4,8 @@
   "description": "",
   "main": "./src/main.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +14,17 @@
     "express": "^4.17.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.2.0",
     "husky": "^7.0.4",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1"
   }
 }
