@@ -4,7 +4,8 @@
   "description": "",
   "main": "./src/main.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "node src/main.mjs",
+    "start:dev": "nodemon src/main.mjs",
     "prepare": "husky install",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --passWithNoTests"
   },
@@ -12,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.2"
   },
   "devDependencies": {
