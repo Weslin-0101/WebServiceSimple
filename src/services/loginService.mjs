@@ -1,7 +1,17 @@
 import { getUser } from "../data/dataContext.mjs";
 
 export class LoginService {
-    login(data) {
+    constructor(validate) {
+        this.validate = validate;
+    }
+
+    async login(data) {
+        const isValid = await this.validate.execute(data);
+
+        if (!isValid.success) {
+            return isValid;
+        }
+
         const user = getUser(data.user);
 
         if (!user || data.password !== user.password) {
