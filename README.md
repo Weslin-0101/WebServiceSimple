@@ -18,6 +18,13 @@
     <li><i>Express</i></li>
     <li><i>Nodemon</i></li>
 </ul>
+
+*`ATENÇÃO`*: Antes de continuar, certifique-se de instalar todas as dependências do projeto. Para isso, dentro da pasta do repositório, execute o seguinte comando no terminal:
+
+```
+    npm install  ou  npm i
+```
+
 <h2 aling="center"><strong>Preparar o ambiente Local ou de produção:</strong></h2>
 
 1. Clone esse repositório: https://github.com/Weslin-0101/WebServiceSimple.git
