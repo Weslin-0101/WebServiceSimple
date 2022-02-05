@@ -19,19 +19,20 @@
     <li><i>Nodemon</i></li>
 </ul>
 
-*`ATENÇÃO`*: Antes de continuar, certifique-se de instalar todas as dependências do projeto. Para isso, clone o projeto e dentro da pasta do repositório, execute o seguinte comando no terminal:
+## <strong>Pré-Requisitos</strong>: 
 
+1. Clone esse repositório: https://github.com/Weslin-0101/WebServiceSimple.git
+
+2. Instale as dependências do projeto executando, dentro da pasta do repositório, no terminal o comando:
 ```
     npm install  ou  npm i
 ```
 
 <h2 aling="center"><strong>Preparar o ambiente Local ou de produção:</strong></h2>
 
-1. Clone esse repositório: https://github.com/Weslin-0101/WebServiceSimple.git
+1. Crie, de acordo com o arquivo ***.env.example***, o arquivo *`.env`* dentro da pasta do repositório
 
-2. Crie, de acordo com o arquivo ***.env.example***, o arquivo *`.env`* dentro da pasta do repositório
-
-3. Execute, dentro da pasta do repositório, o comando:
+2. Execute, dentro da pasta do repositório, o comando:
     ```
     npm run start
     ```
