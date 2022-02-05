@@ -19,7 +19,7 @@
     <li><i>Nodemon</i></li>
 </ul>
 
-*`ATENÇÃO`*: Antes de continuar, certifique-se de instalar todas as dependências do projeto. Para isso, dentro da pasta do repositório, execute o seguinte comando no terminal:
+*`ATENÇÃO`*: Antes de continuar, certifique-se de instalar todas as dependências do projeto. Para isso, clone o projeto e dentro da pasta do repositório, execute o seguinte comando no terminal:
 
 ```
     npm install  ou  npm i
